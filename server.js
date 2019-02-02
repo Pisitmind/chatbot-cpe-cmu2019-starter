@@ -48,8 +48,8 @@ app.post('/webhook', middleware(config), (req, res) => {
             },
             "actions": [
                 {
-                  "type": "postback",
-                  "label": "Buy",
+                  "type": "uri",
+                  "label": "Facebook",
                   "uri": "https://www.facebook.com/pisit.boonklod"
                 },
                 {
@@ -59,8 +59,8 @@ app.post('/webhook', middleware(config), (req, res) => {
                 },
                 {
                   "type": "uri",
-                  "label": "View detail",
-                  "uri": "http://google.com"
+                  "label": "CPE",
+                  "uri": "http://cpe.eng.cmu.ac.th/2013"
                 }
             ]
         }
