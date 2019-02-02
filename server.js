@@ -55,7 +55,7 @@ app.post('/webhook', middleware(config), (req, res) => {
                 {
                   "type": "message",
                   "label": "Add to cart",
-                  "text": "no no no"
+                  "text": "ใส่ไปเรื่อยเดี๋ยวตีเลย"
                 },
                 {
                   "type": "uri",
