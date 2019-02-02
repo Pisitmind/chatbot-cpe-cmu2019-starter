@@ -35,7 +35,7 @@ app.post('/webhook', middleware(config), (req, res) => {
         "altText": "This is a buttons template",
         "template": {
             "type": "buttons",
-            "thumbnailImageUrl": "https://i.pinimg.com/474x/cb/68/7c/cb687c43831c0f4ba9746589e70a7ade.jpg",
+            "thumbnailImageUrl": "https://pbs.twimg.com/media/Dh6ZQvGVMAE7LFF.jpg",
             "imageAspectRatio": "rectangle",
             "imageSize": "cover",
             "imageBackgroundColor": "#09F1F9",
