@@ -35,12 +35,12 @@ app.post('/webhook', middleware(config), (req, res) => {
         "altText": "This is a buttons template",
         "template": {
             "type": "buttons",
-            "thumbnailImageUrl": "https://vignette.wikia.nocookie.net/line/images/b/bb/2015-brown.png/revision/latest?cb=20150808131630",
+            "thumbnailImageUrl": "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_1140/qondp6kodbpuwgjmzcj0",
             "imageAspectRatio": "rectangle",
             "imageSize": "cover",
             "imageBackgroundColor": "#FFFFFF",
-            "title": "Menu",
-            "text": "Please select",
+            "title": "Mind",
+            "text": "Pisit Boonklod",
             "defaultAction": {
                 "type": "uri",
                 "label": "View detail",
