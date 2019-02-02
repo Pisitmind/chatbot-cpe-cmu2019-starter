@@ -12,7 +12,7 @@ const client = new Client(config);
 
 app.get('/', function (req, res) {
   res.send('Hello World!!')
-  
+
 })
 
 
@@ -28,6 +28,12 @@ app.post('/webhook', middleware(config), (req, res) => {
     client.replyMessage(event.replyToken, {
       type: 'text',
       text: message.type,
+    })
+    client.replyMessage(event.replyToken, {
+      type: 'sticker',
+      id: '9286861285965',
+      stickerId: '59720824',
+      packageId: '11741'
     })
   }
 })
