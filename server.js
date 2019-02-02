@@ -38,7 +38,7 @@ app.post('/webhook', middleware(config), (req, res) => {
             "thumbnailImageUrl": "https://i.pinimg.com/474x/cb/68/7c/cb687c43831c0f4ba9746589e70a7ade.jpg",
             "imageAspectRatio": "rectangle",
             "imageSize": "cover",
-            "imageBackgroundColor": "#02FF81",
+            "imageBackgroundColor": "#09F1F9",
             "title": "Mind",
             "text": "Pisit Boonklod",
             "defaultAction": {
