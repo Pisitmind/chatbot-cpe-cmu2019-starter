@@ -38,7 +38,7 @@ app.post('/webhook', middleware(config), (req, res) => {
             "thumbnailImageUrl": "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_1140/qondp6kodbpuwgjmzcj0",
             "imageAspectRatio": "rectangle",
             "imageSize": "cover",
-            "imageBackgroundColor": "#FFFFFF",
+            "imageBackgroundColor": "#02FF81",
             "title": "Mind",
             "text": "Pisit Boonklod",
             "defaultAction": {
