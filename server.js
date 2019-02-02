@@ -1,13 +1,12 @@
-
 const express = require('express')
 const line = require('@line/bot-sdk')
 const restClient = new (require('node-rest-client').Client)
 
-// require('dotenv').config()
 const app = express()
+
 const config = {
-    channelAccessToken: 'VsPqP4qFJwCTa8yjfMlSqmYzbhWMn0W9weOu7Tc9g5Ci7sO/Hit9wugxeroZySWMXHH9mYQfVNFDGPRnMeZcOcf+POw+HYWaCEd1O9fUVg5/Lbf0TSmwEyUfMUNvAjjxVwaOpOSWs6FB2AHZ0mUk9wdB04t89/1O/w1cDnyilFU=',
-    channelSecret: '817d67a18ad5aa9196064cdb0bdf47bc'
+    channelAccessToken: 'XXX',
+    channelSecret: 'YYY'
   }
 
 const client = new line.Client(config);
@@ -24,6 +23,7 @@ app.post('/webhook', line.middleware(config), (req, res) => {
 });
 
 function handleEvent(event) {
+    console.log(event)
   if(event.type === 'message' && event.message.type === 'location') {
     return handleLocationEvent(event)
   }else {
