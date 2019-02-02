@@ -72,26 +72,28 @@ app.post('/webhook', middleware(config), (req, res) => {
             "type": "carousel",
             "columns": [
                 {
-                  "thumbnailImageUrl": "https://vignette.wikia.nocookie.net/line/images/b/bb/2015-brown.png/revision/latest?cb=20150808131630",
-                  "imageBackgroundColor": "#FFFFFF",
-                  "title": "this is menu",
-                  "text": "description",
+                  "thumbnailImageUrl": "https://pbs.twimg.com/media/Dh6ZQvGVMAE7LFF.jpg",
+                  "imageBackgroundColor": "#0000FF",
+                  "title": "Pun",
+                  "text": "Hello",
                   "actions": [
                       {  
-                          "type":"cameraRoll",
-                          "label":"Camera roll"
+                          "type":"message",
+                          "label":"เพิ่มสินค้า",
+                          "text": "ไม่มีอะไรจะขายแล้วว"
                       },
                       {  
-                        "type":"location",
-                        "label":"Location"
+                        "type":"uri",
+                        "label":"Facebook",
+                        "uri":"https://www.facebook.com/bnk48official.pun"
                      }
                   ]
                 },
                 {
                   "thumbnailImageUrl": "https://c.76.my/Malaysia/line-brown-bear-cute-pencil-case-ubiyo-1802-02-Ubiyo@6.jpg",
-                  "imageBackgroundColor": "#000000",
-                  "title": "this is menu",
-                  "text": "description",
+                  "imageBackgroundColor": "#0000FF",
+                  "title": "Cherprang",
+                  "text": "Hi~~",
                   "actions": [
                     {
                       "type":"datetimepicker",
@@ -103,8 +105,9 @@ app.post('/webhook', middleware(config), (req, res) => {
                       "min":"2017-12-25t00:00"
                     },
                     {  
-                      "type":"camera",
-                      "label":"Camera"
+                      "type":"uri",
+                      "label":"Facebook",
+                      "uri":"https://www.facebook.com/bnk48official.cherprang/?ref=br_rs"
                    }
                 ]
                 }
