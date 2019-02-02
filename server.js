@@ -50,7 +50,7 @@ app.post('/webhook', middleware(config), (req, res) => {
                 {
                   "type": "postback",
                   "label": "Buy",
-                  "data": "action=buy&itemid=123"
+                  "uri": "https://www.facebook.com/pisit.boonklod"
                 },
                 {
                   "type": "message",
